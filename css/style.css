@@ -1,15 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 *{
   font-family: 'Source Sans Pro', sans-serif;
-  box-sizing: border-box;
+  font-weight: 0;
   margin: 0;
   padding: 0;
-}
-
-.header{
-
-  padding: 16px 12px;
-  
 }
 
 .nav-section {
@@ -21,13 +15,21 @@
 }
 
 .nav-search {
-  color: #fff;
   margin-left:100px;
+  cursor: pointer;
+}
+
+.nav-search i {
+  color: #fff;
 }
 
 .main {
   display: flex;
   justify-content: space-around;
+}
+
+.nav {
+  
 }
 
 
@@ -38,10 +40,10 @@
 
 a{
   padding: 0px 1.2rem;
-  font-size: 1.4rem;
+  font-size: 16px;
   text-decoration:none;
   color: #ffffff;
-  font-weight: 500;
+
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
@@ -52,8 +54,28 @@ a:hover {
 
 .currencies {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  width: 300px;
-  margin-right: 100px;
+  width: 400px;
+  margin-left:100px;
+  background-color: rgba(119, 119, 119, 0.1);
+}
+
+p {
+  text-align: center;
+}
+
+i {
+  color: green;
+  font-weight: bold;
+}
+
+.lira i {
+  color: red;
+}
+
+.nav i {
+  color: #fff;
+  font-size: 12px;
+  margin-left: 5px;
 }
